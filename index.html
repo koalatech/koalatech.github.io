@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Richard M. Pabelona Jr. — Associate Professor, Homelabber</title>
+  <meta name="description" content="Richard M. Pabelona Jr. — Associate Professor, Homelabber" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">RP</div>
+        <div class="brand-text">
+          <h1 class="title">Richard M. Pabelona Jr.</h1>
+          <p class="tagline">Associate Professor, Homelabber</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#links">Links</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card hero">
+      <p class="kicker">Welcome</p>
+      <h2 class="headline">Teaching, tinkering, and building reliable systems.</h2>
+      <p class="lead">
+        This is a simple landing page for sharing work, contact links, and homelab projects.
+      </p>
+
+      <div class="cta-row">
+        <a class="button primary" href="#links">Get in touch</a>
+        <a class="button" href="#about">Learn more</a>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h3>About</h3>
+      <p>
+        I’m Richard M. Pabelona Jr., an Associate Professor and homelab enthusiast.
+        I enjoy teaching, exploring infrastructure, automation, and practical applied research—
+        and sharing what I learn along the way.
+      </p>
+
+      <div class="grid">
+        <div class="mini">
+          <h4>Interests</h4>
+          <ul>
+            <li>Systems &amp; networking</li>
+            <li>Virtualization &amp; containers</li>
+            <li>Automation &amp; observability</li>
+          </ul>
+        </div>
+        <div class="mini">
+          <h4>Currently</h4>
+          <ul>
+            <li>Building a tidy, documented homelab</li>
+            <li>Creating teaching resources</li>
+            <li>Experimenting with self-hosted tools</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="links" class="card">
+      <h3>Links</h3>
+      <p class="muted">Replace the placeholders with your real links.</p>
+
+      <div class="links">
+        <a class="link-item" href="mailto:your.email@example.com">
+          <span class="link-label">Email</span>
+          <span class="link-value">your.email@example.com</span>
+        </a>
+
+        <a class="link-item" href="#" target="_blank" rel="noopener noreferrer">
+          <span class="link-label">LinkedIn</span>
+          <span class="link-value">Add your profile URL</span>
+        </a>
+
+        <a class="link-item" href="#" target="_blank" rel="noopener noreferrer">
+          <span class="link-label">GitHub</span>
+          <span class="link-value">Add your profile URL</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted">© <span id="year">2026</span> Richard M. Pabelona Jr.</p>
+      <p class="muted small">Built with plain HTML + CSS on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>
